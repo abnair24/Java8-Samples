@@ -1,4 +1,4 @@
-package samples.lambda;
+package samples;
 
 import org.testng.annotations.Test;
 import sample.lambda.LambdaGenericImpl;

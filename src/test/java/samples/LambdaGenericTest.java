@@ -1,4 +1,4 @@
-package samples.lambda;
+package samples;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
