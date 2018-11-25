@@ -3,3 +3,4 @@ Implementation of java8 features
  * Lambdas
  * Streams
  * Predicates
+ * Optional
