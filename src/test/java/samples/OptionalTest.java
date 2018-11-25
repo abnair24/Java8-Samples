@@ -4,8 +4,10 @@ import org.assertj.core.util.Lists;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -27,6 +29,7 @@ public class OptionalTest {
         month.ifPresent(words::add);
         nothing.ifPresent(words::add);
 
+        assertThat(month.toString()).isEqualToIgnoringCase("Optional[october]");
         assertThat(words.size()).isOne();
         assertThat(words.get(0)).hasToString("october");
     }
@@ -53,5 +56,17 @@ public class OptionalTest {
 
         assertThat(filterout.isPresent()).isFalse();
         assertThat(filterin.isPresent()).isTrue();
+    }
+
+    @Test
+    public void test3() throws Exception {
+        List<String> numbers = Arrays.asList("1",null,"2","3","1",null);
+
+        List<Optional<String>> num = numbers
+                .stream()
+                .map(Optional::ofNullable)
+                .collect(Collectors.toList());
+
+        System.out.println(num);
     }
 }
