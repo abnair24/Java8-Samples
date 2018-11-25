@@ -3,6 +3,7 @@ package samples;
 import org.assertj.core.util.Lists;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import sample.optional.Modem;
 
 import java.util.Arrays;
 import java.util.List;
@@ -68,5 +69,34 @@ public class OptionalTest {
                 .collect(Collectors.toList());
 
         System.out.println(num);
+    }
+
+    /*
+    OrElse triggers call to default method even when field is not null thus creating an object which is not used.
+     */
+    @Test
+    public void orElseGetAndOrElseTest() throws Exception {
+
+        String text = "Value";
+        System.out.println("OrElseGet");
+        String defaultText = Optional.ofNullable(text).orElseGet(this::getMyDefault);
+        assertThat(defaultText).hasToString("Value");
+
+        System.out.println("OrElse");
+        defaultText = Optional.of(text).orElse(getMyDefault());
+        assertThat(defaultText).hasToString("Value");
+
+    }
+
+
+    public String getMyDefault() {
+        System.out.println("Getting Default Value");
+        return "Default Value";
+    }
+
+    @Test
+    public void filterWithOptionalTest() throws Exception {
+        assertThat(Modem.isInRange(new Modem(13.0))).isTrue();
+        assertThat(Modem.isInRange(new Modem(16.0))).isTrue();
     }
 }
