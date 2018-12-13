@@ -13,7 +13,6 @@ public class DateTimeCalSample {
         timeDateSample.dateTimeWeekMethod("08241986");
 
         timeDateSample.dateTimeFormatMethod();
-
     }
 
     /*
