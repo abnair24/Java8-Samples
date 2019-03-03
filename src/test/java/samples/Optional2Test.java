@@ -1,9 +1,9 @@
 package samples;
 
 import org.testng.annotations.Test;
-import sample.optional.Company;
-import sample.optional.Department;
-import sample.optional.Manager;
+import java8.optional.Company;
+import java8.optional.Department;
+import java8.optional.Manager;
 
 import java.util.Optional;
 

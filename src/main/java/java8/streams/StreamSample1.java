@@ -1,4 +1,4 @@
-package sample.streams;
+package java8.streams;
 
 import java.util.List;
 import java.util.function.Predicate;

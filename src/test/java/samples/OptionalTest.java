@@ -3,7 +3,7 @@ package samples;
 import org.assertj.core.util.Lists;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sample.optional.Modem;
+import java8.optional.Modem;
 
 import java.util.Arrays;
 import java.util.List;

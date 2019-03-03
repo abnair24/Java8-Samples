@@ -2,8 +2,8 @@ package samples;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sample.streams.Gender;
-import sample.streams.Person;
+import java8.streams.Gender;
+import java8.streams.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;

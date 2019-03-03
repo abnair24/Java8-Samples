@@ -1,7 +1,7 @@
 package samples;
 
 import org.testng.annotations.Test;
-import sample.lambda.LambdaConvert;
+import java8.lambda.LambdaConvert;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

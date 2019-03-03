@@ -1,7 +1,7 @@
 package samples;
 
 import org.testng.annotations.Test;
-import sample.lambda.LambdaGenericImpl;
+import java8.lambda.LambdaGenericImpl;
 
 import static org.assertj.core.api.Assertions.*;
 

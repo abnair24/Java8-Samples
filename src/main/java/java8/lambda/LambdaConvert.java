@@ -1,4 +1,4 @@
-package sample.lambda;
+package java8.lambda;
 
 public class LambdaConvert {
 

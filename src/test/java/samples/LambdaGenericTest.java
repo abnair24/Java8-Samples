@@ -2,10 +2,9 @@ package samples;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sample.lambda.LambdaGeneric;
+import java8.lambda.LambdaGeneric;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;

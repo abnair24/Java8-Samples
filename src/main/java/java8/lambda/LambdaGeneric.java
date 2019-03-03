@@ -1,4 +1,4 @@
-package sample.lambda;
+package java8.lambda;
 
 import java.util.Collections;
 import java.util.List;

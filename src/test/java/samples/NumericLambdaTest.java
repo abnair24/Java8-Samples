@@ -1,7 +1,7 @@
 package samples;
 
 import org.testng.annotations.Test;
-import sample.lambda.LambdaNumeric;
+import java8.lambda.LambdaNumeric;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class NumericLambdaTest {

@@ -1,4 +1,4 @@
-package sample.supplier;
+package java8.supplier;
 
 import lombok.Getter;
 import lombok.Setter;

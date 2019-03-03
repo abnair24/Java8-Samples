@@ -1,4 +1,4 @@
-package sample.optional;
+package java8.optional;
 
 import lombok.Getter;
 import lombok.Setter;

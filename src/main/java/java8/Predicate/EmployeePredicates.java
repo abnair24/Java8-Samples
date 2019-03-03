@@ -1,4 +1,4 @@
-package sample.Predicate;
+package java8.Predicate;
 
 import java.util.List;
 import java.util.function.Predicate;

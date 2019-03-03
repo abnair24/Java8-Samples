@@ -1,6 +1,4 @@
-package sample.lambda;
-
-import java.util.function.Predicate;
+package java8.lambda;
 
 @FunctionalInterface
 public interface NumericInterface {

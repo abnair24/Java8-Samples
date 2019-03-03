@@ -2,8 +2,8 @@ package samples;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import sample.Predicate.Employee;
-import sample.Predicate.EmployeePredicates;
+import java8.Predicate.Employee;
+import java8.Predicate.EmployeePredicates;
 
 import java.util.ArrayList;
 import java.util.Arrays;

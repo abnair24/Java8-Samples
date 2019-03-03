@@ -1,7 +1,7 @@
 package samples;
 
 import org.testng.annotations.Test;
-import sample.supplier.Employee;
+import java8.supplier.Employee;
 
 import java.util.function.Supplier;
 

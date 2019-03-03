@@ -1,4 +1,4 @@
-package sample.Predicate;
+package java8.Predicate;
 
 import lombok.Getter;
 import lombok.Setter;

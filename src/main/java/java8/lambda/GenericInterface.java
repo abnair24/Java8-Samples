@@ -1,4 +1,4 @@
-package sample.lambda;
+package java8.lambda;
 
 @FunctionalInterface
 public interface GenericInterface<T> {
